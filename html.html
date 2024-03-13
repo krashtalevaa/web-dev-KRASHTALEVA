@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.video {
+            margin-right: 60px;
+        }
+
+ 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #A52A2A;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: white ;
+  padding: 10px;
+  text-align: center;
+  color: black;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<header>
+  <h2>Krashtaleva Arsenia PW1</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#1">Qa)</a></li>
+      <li><a href="#2">Qb)</a></li>
+      <li><a href="#3 ">Qc)</a></li>
+      <li><a href="#4">Qd)</a></li>
+      <li><a href="#5">Qe)</a></li>
+      <li><a href="#6 ">Qf)</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1 id="1">WhenHTML5 has become a standard?What were the main reasonsfordeveloping 
+new standard? </h1>
+    <dt>a) HTML5 became a standard on October 28, 2014. The main reasons for developing this new standard were to improve the language with new features, better support for multimedia elements, and more consistent behavior across different browsers.</dt>
+
+    <h1 id="2">What is a difference between W3C HTML5 and WHATWG HTML Living Standard? </h1>
+        <dt>b) The main difference between W3C HTML5 and WHATWG HTML Living Standard is in their development process. W3C releases stable versions of HTML standards, while WHATWG HTML Living Standard is continuously updated and does not have fixed version numbers.</dt>
+            <h1 id="3">What is the minimal HTML page code?  </h1>
+    <dt>c) A minimal HTML page typically consists of the following elements:
+
+1. <!DOCTYPE html>: This declaration specifies the HTML version being used.
+2. html: The root element that wraps all the content of the HTML document.
+3. head: Contains meta-information about the HTML document, such as the title and links to stylesheets or scripts.
+4. title: Sets the title of the HTML document, which is displayed in the browser tab.
+5. body: Contains the main content of the HTML document, such as headings, paragraphs, images, and other elements.
+
+In a minimal HTML page, you may have a simple heading (h1) and a paragraph (p) to provide some introductory content. This basic structure forms the foundation of any HTML document.</dt>
+
+<h1 id="4">Comment on semanticand presentationalmarkup. Why presentationalmarkup is 
+considered deprecated now? </h1>
+    <dt>d) Semantic markup focuses on the meaning and structure of content, while presentational markup is concerned with the appearance of content. Presentational markup is considered deprecated because it mixes content with styling, making it harder to maintain and less accessible for different devices and users.</dt>
+    <h1 id="5">How you can check browsersupport for particular tag or attribute?  </h1>
+    <dt>e) How you can check browsersupport for particular tag or attribute? </dt>
+    <h1 id="6">What are the audio and video formats, officially supported byHTML standard? What 
+happens if you use other format? </h1>
+    <dt>f) The audio formats officially supported by the HTML standard are MP3, Ogg, and WAV. The video formats are MP4, WebM, and Ogg. If you use other formats that are not supported, the browser may not be able to play the audio or video content correctly. </dt>
+    
+    
+
+  
+    
+    
+    
+    
+    
+  </article>
+</section>
+
+
+<article>
+    <style>
+        iframe {
+            margin-left: 250px;
+        }
+    </style>
+
+    <iframe width="380" height="215" src="https://www.youtube.com/embed/VOM__NZAFQM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   
+    
+  
+<audio controls>
+  <source src="https://drive.google.com/uc?export=download&id=1DsfOEmZBJBy7m0u4AJ4mx-X1xSfZBZsu" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+  
+</article>
+ <footer>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTN0JMORKpPmCjgYGmvwVrL8H0HwGRXkF41KPSlgjTeg&s" alt="Italian Trulli">
+   <h1>Conclusion</h1>
+   <p>i actually loved that kind of work. That was interesting</p>
+  </footer>
+</body>
+</html>
